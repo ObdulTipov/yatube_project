@@ -1,0 +1,20 @@
+<!-- templates/posts/index.html -->
+<!DOCTYPE html> 
+<html lang="ru">
+  <head>
+  </head>
+  <body>
+    <header>
+      <!-- Это тег шаблонизатора include, сюда будет включён код
+      из файла includes/header.html -->
+      {% include 'includes/header.html' %}
+    </header>
+    <main>
+      Информация на главной странице
+    </main>
+    <footer>
+      {% include 'includes/footer.html' %} 
+    </footer>
+    <h1>Главная страница</h1>
+  </body>
+</html>
